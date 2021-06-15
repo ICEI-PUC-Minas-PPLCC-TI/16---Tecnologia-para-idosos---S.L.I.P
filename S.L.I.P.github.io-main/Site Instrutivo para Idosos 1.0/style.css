@@ -47,6 +47,7 @@ body {
 
 .header ul {
     padding-top: 12px;
+    text-align: center;
 }
 
 .header li {
@@ -74,6 +75,31 @@ body {
 }
 
 #houdini i {
+    color: black;
+    padding: 6px 3px;
+}
+
+
+#magico1 {
+    background-color: rgb(194, 194, 194);
+    text-decoration-color: white;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    height: 35px;
+    border-radius: 7px;
+}
+
+#houdini1 {
+    background-color: rgb(194, 194, 194);
+    color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+}
+
+#houdini1 i {
     color: black;
     padding: 6px 3px;
 }
