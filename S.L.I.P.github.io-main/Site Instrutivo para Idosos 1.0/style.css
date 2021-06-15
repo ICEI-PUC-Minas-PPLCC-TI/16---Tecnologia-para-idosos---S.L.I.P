@@ -45,6 +45,10 @@ body {
     font-family: 'Farro', sans-serif;
 }
 
+.header ul {
+    padding-top: 12px;
+}
+
 .header li {
     padding-left: 47px;
     padding-right: 47px;
@@ -55,14 +59,23 @@ body {
     text-decoration-color: white;
     border-color: black;
     border-width: 2px;
+    color: black;
+    height: 35px;
+    border-radius: 7px;
 }
 
 #houdini {
+    background-color: rgb(194, 194, 194);
     color: black;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     border-radius: 7px;
+}
+
+#houdini i {
+    color: black;
+    padding: 6px 3px;
 }
 
 .main {
@@ -535,3 +548,36 @@ background-color: #000000 !important;
     padding-top: 20px;
 }
 
+/*resultados da pesquisa*/
+
+.search-title {
+    padding: 30px 0px;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.search-news {
+    padding: 5px;
+    border: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    margin: 10px;
+}
+
+.search-news a {
+    text-decoration: none;
+}
+
+.search-news-text {
+    font-weight: bold;
+    padding: 10px 10px 0px 10px;
+}
+
+.search-news-text p {
+    font-size: 1.2em;
+}
+
+.search-news-text h5 {
+    font-size: 0.8em;
+}
