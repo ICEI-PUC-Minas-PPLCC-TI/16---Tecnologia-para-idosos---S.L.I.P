@@ -50,13 +50,10 @@
                         <div class="col-3  navbar ">
                             <nav class="navbar navbar-light" style="background-color: rgb(29, 29, 29);">
                                 <div class="container-fluid">
-                                    <form class="d-flex">
-                                        <input id="magico" class="form-control me-2" type="search"
-                                            placeholder="Pesquisar" aria-label="Search">
-                                        <button id="houdini" class="btn btn-outline-success" type="submit">
-                                            <i class="fas fa-search"></i>
-                                        </button>
-                                    </form>
+                                    <input id="magico" type="text">
+                                    <button id="houdini" onclick="pesquisaDados()">
+                                        <i class="fas fa-search"></i>
+                                    </button>
                                 </div>
                             </nav>
                         </div>
@@ -67,22 +64,17 @@
                             <i class="fa fa-times-circle"></i>
                         </label>
                         <ul2 class="menu">
-                            <li><a href="#">Início</a></li>
-                            <a href="login.html">
-                                <li class="flex-sm-fill text-sm-center nav-link" href="#">Login</li>
-                            </a>
-                            <li><a href="#">Sobre nós</a></li>
-                            <li><a href="#">Aulas</a></li>
-                            <li><a href="#">dicas</a></li>
-                            <li><a href="#">Instruções</a></li>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="login.html" target="_blank">Login</a></li>
+                            <li><a href="sobre-nos.html">Sobre nós</a></li>
+                            <li><a href="aulas.html">Aulas</a></li>
+                            <li><a href="dicas.html">dicas</a></li>
+                            <li><a href="instruçoes.html">Instruções</a></li>
                             <li>
-                                <form class="d-flex">
-                                    <input id="magico" class="form-control me-2" type="search" placeholder="Pesquisar"
-                                        aria-label="Search">
-                                    <button id="houdini" class="btn btn-outline-success" type="submit">
-                                        <i class="fas fa-search"></i>
-                                    </button>
-                                </form>
+                                <input id="magico1" type="text" placeholder="Pesquisar" aria-label="Search">
+                                <button id="houdini1" onclick="pesquisaDados1()">
+                                    <i class="fas fa-search"></i>
+                                </button>
                             </li>
                         </ul2>
 
