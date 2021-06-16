@@ -115,7 +115,8 @@ body {
     display: none;
     
 }
-.news-1 img, .news-2 img, .news-3 img{
+.news img{
+    float: right;
     margin: 7px;
     border-radius: 10px;
     min-width: 200px;
