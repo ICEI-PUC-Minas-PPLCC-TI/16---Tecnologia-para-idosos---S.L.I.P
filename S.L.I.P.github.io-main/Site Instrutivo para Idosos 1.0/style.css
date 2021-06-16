@@ -123,13 +123,13 @@ body {
 
 }
 
-.news-1 a~div,.news-2 a~div, .news-3 a~div {
+.news a~div{
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.news-1 ,.news-2, .news-3 {
+.news{
     
     padding: 5px;
     border: white;
@@ -139,7 +139,7 @@ body {
     margin: 10px;
 }
 
-.news-1 a,.news-2 a, .news-3 a {
+.news a{
     display: inline-flex;
 }
 
@@ -147,7 +147,7 @@ body {
     font-size: small;
 }
 
-.news-1 a,.news-2 a,.news-3 a{
+.news- a{
     text-decoration: none;
 }
 
