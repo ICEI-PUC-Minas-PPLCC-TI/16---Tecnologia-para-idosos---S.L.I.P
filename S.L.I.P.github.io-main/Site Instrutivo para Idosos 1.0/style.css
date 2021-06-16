@@ -137,8 +137,12 @@ body {
     border-radius: 10px;
     border-width: 2px;
     margin: 10px;
+}
+
+.news-1 a,.news-2 a, .news-3 a {
     display: inline-flex;
 }
+
 .news-text{
     font-size: small;
 }
