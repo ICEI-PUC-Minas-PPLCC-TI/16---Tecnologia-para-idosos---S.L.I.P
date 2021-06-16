@@ -8,7 +8,7 @@ function exibeNoticias(){
 
         texto = texto + `
             <div class = "news">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 img">
                     <img class="img-fluid" src="${noticia.image}">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
