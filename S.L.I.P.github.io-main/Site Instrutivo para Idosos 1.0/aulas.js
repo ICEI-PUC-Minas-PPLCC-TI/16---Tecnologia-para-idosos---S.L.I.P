@@ -15,7 +15,7 @@ if (localStorage.getItem('Vagas1') === null) {
     console.log("local storage preenchido");
 }
 
-vagas = JSON.parse(localStorage.getItem("Vagas1"));
+vagas1 = JSON.parse(localStorage.getItem("Vagas1"));
 
 window.onload = () => {
 
@@ -34,7 +34,7 @@ window.onload = () => {
         comentsarea1.innerHTML += box1;
     }
 
-    register1.onsubmit = (e) => {
+    register.onsubmit = (e) => {
         console.log(titleForm1.value)
         if ( descForm1.value.length == 0 ) {
 
