@@ -4,7 +4,7 @@ function comentsareaBox(title, desc) {
 }
 
 let duvidas = [];
-let y, comentsarea, box;
+let x, comentsarea, box;
 
 //Garantir que hajam duvidas ficticias postadas 
 
@@ -18,15 +18,15 @@ duvidas = JSON.parse(localStorage.getItem("Duvidas"));
 
 window.onload = () => {
 
-    for (y = duvidas.length - 1; y >= 0; y--) {
+    for (x = duvidas.length - 1; x >= 0; x--) {
 
         comentsarea = document.getElementById('comentsarea');
 
         box = `
         <div class="card col-12">
             <div class="card-body">
-                <h5>${duvidas[y].title}</h5>
-                <p>${duvidas[y].desc}</p>
+                <h5>${duvidas[x].title}</h5>
+                <p>${duvidas[x].desc}</p>
             </div>
         </div>`;
 
